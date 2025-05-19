@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Creative Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo gradient-text">Evan's Portfolio</div>
+        <div class="nav-links">
+            <a href="#work">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="gradient-text">Evan</span></h1>
+            <p>An aspiring business analyst passionate about building models that make an impact.</p>
+            <div class="hero-buttons">
+                <a href="#work" class="cta-button">View My Work</a>
+                <a href="images/resume.pdf" download class="cta-button secondary">Download Resume</a>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="section">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <a href="https://github.com/Evannoshy/spam-msg-detector" class="project-link" target="_blank" rel="noopener noreferrer">
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('images/spam.png');"></div>
+                    <div class="project-info">
+                        <h3>Spam SMS detector</h3>
+                        <p>Model that predicts whether a message is 'Spam' or 'Ham' using the Naive Bayes model!</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Machine Learning</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="https://github.com/Evannoshy/BMI-Predictor" class="project-link" target="_blank" rel="noopener noreferrer">
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('images/BMI\ predictor.png');"></div>
+                    <div class="project-info">
+                        <h3>Variable predictor</h3>
+                        <p>Using the K-Nearest Neighbour model, a prediction on a focus variable, in this case 'BMI' can be made!</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Algorithms</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="https://github.com/Evannoshy/To-do-list" class="project-link" target="_blank" rel="noopener noreferrer">
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('images/image.png');"></div>
+                    <div class="project-info">
+                        <h3>To-Do list</h3>
+                        <p>A task tracker to help keep a tab on outstanding work for planning of work.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">UI/UX</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <h2 class="section-title">Work Experience</h2>
+        <div class="experience-container">
+            <div class="experience-card">
+                <div class="experience-header">
+                    <h3>Air Operations Specialist</h3>
+                    <span class="experience-date">Jun 2024 - Jan 2026</span>
+                </div>
+                <div class="experience-company">Republic of Singapore Airforce</div>
+                <ul class="experience-details">
+                    <li>Facilitated airbase operations from command post and supported aircraft controllers</li>
+                    <li>Created and broadcasted materials for daily operational briefings</li>
+                    <li>Built automation tools (Python, Excel VBA) to streamline key processes</li>
+                    <li>Beyond my primary role as an AOS, I have assisted in planning and the conduct of SBAB's milestone ceremony, and in the development of courses on iLEARN</li>
+                </ul>
+            </div>
+
+            <div class="experience-card">
+                <div class="experience-header">
+                    <h3>Academic Tutor</h3>
+                    <span class="experience-date">Oct 2023 - Jan 2024</span>
+                </div>
+                <div class="experience-company">EduFirst</div>
+                <ul class="experience-details">
+                    <li>Planned lessons, marked assignments, and provided constructive feedback to track progress and reinforce understanding.</li>
+                    <li>Conducted engaging and structured lessons in Primary English and Math, as well as Secondary STEM subjects, tailored to students' learning needs and levels.</li>
+                    <li>Recognized for strong teaching performance and dedication and was offered to lead a full-time class at the Canberra branch.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <h2 class="section-title">Academic Qualifications</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-date">2026 - Present</div>
+                <div class="timeline-content">
+                    <h3>National University of Singapore</h3>
+                    <p class="degree">Bachelor of Business Analytics and Economics (double major)</p>
+                    <ul>
+                        <li>Specializing in Data Analytics and Business Intelligence</li>
+                        <li>Relevant coursework: Machine Learning, Data Mining, Business Intelligence Systems</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-date">2022 - 2023</div>
+                <div class="timeline-content">
+                    <h3>Anderson Serangoon Junior College</h3>
+                    <p class="degree">GCE A-Levels</p>
+                    <ul>
+                        <li>Subjects: Mathematics, Economics, Chemistry, Biology</li>
+                        <li>Scored 'A' for all core subjects</li>
+                        <li>Section leader/Executive comittee for Guitar Ensemble (CCA)</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-date">2022 - 2023</div>
+                <div class="timeline-content">
+                    <h3>Chung Cheng High School (Yishun) </h3>
+                    <p class="degree">GCE O-Levels</p>
+                    <ul>
+                        <li>Subjects: A/E Mathematics, Chemistry, Biology, History/Social Studies, Pure Geography, English </li>
+                        <li>Scored 'A' for six out of seven core subjects</li>
+                        <li>Section leader/Executive comittee for Symphonic Band (CCA)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rest of your existing code (About and Contact sections) -->
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="images/me.jpg" alt="Profile Image">
+            </div>
+            <div class="about-text">
+                <h2>Who am I?</h2>
+                <p>I'm a current undergraduate of the National University of Singapore. My approach combines aesthetic sensibility with technical expertise to deliver solutions that are both beautiful and functional.</p>
+                <p>When I'm not coding, you can find me cafe-hopping or cooking! I believe in life-long learning and staying on top of the latest trends in technology.</p>
+                <p>My skills include:</p>
+                <ul>
+                    <li>UI/UX Design</li>
+                    <li>Front-end Development</li>
+                    <li>Python</li>
+                    <li>Data Analysis</li>
+                    <li>Machine Learning</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h2>Let's Connect!</h2>
+        <p>Have a project in mind or want to collaborate? I'd love to hear from you.</p>
+        
+        <div class="social-links">
+            <a href="https://www.instagram.com/evnvxz/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">📸</a>
+            <a href="https://l.instagram.com/?u=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fevan-tan-3b0b59323%3Futm_source%3Dshare%26utm_campaign%3Dshare_via%26utm_content%3Dprofile%26utm_medium%3Dios_app%26fbclid%3DPAZXh0bgNhZW0CMTEAAaf3t8_VrmjcASaDNK_sK3NIFawnSUTRmduxjN_wR5LhGCIzoDgWT54RNE_LqA_aem_W9ppUI8XK-e8OftrE1tGnQ&e=AT30hyroYy1X5D6-VLW7iw7hlHpdyUhT4IGzNNkafUDt4GD_SdurPdGK4wuTdocmBoeDM6gQm6HU5s_0bw-o2oArRYNH8_gfETzpjpoE70vpJ7SJy8yYp2k" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">💼</a>
+            <a href="https://github.com/Evannoshy" target="_blank" rel="noopener noreferrer" aria-label="GitHub">👨‍💻</a>
+            <a href="mailto:evantan005@gmail.com" aria-label="Email">✉️</a>
+        </div>
+        
+        <p>© 2025 Evan Tan. All rights reserved.</p>
+    </footer>
+</body>
+</html>
