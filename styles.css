@@ -1,4 +1,3 @@
-/* Modern CSS Reset */
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +19,6 @@ body {
     line-height: 1.6;
 }
 
-/* Gradient text effect - popular on TikTok */
 .gradient-text {
     background: linear-gradient(45deg, var(--primary), var(--secondary));
     -webkit-background-clip: text;
@@ -28,7 +26,6 @@ body {
     color: transparent;
 }
 
-/* Navigation */
 nav {
     display: flex;
     justify-content: space-between;
@@ -62,7 +59,6 @@ nav {
     color: var(--accent);
 }
 
-/* Hero Section */
 .hero {
     height: 100vh;
     display: flex;
@@ -103,7 +99,6 @@ nav {
     box-shadow: 0 10px 20px rgba(254, 44, 85, 0.3);
 }
 
-/* Work/Projects Section */
 .section {
     padding: 5rem 5%;
 }
@@ -166,7 +161,6 @@ nav {
     font-size: 0.8rem;
 }
 
-/* About Section */
 .about-content {
     display: flex;
     align-items: center;
@@ -196,7 +190,6 @@ nav {
     margin-bottom: 1rem;
 }
 
-/* Footer */
 footer {
     background-color: var(--dark);
     color: white;
@@ -221,7 +214,6 @@ footer {
     color: var(--secondary);
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .hero h1 {
         font-size: 2.5rem;
@@ -242,7 +234,7 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        background: #f5f5f5; /* Fallback background */
+        background: #f5f5f5; 
     }
     
     .about-image img {
@@ -267,7 +259,7 @@ footer {
 }
 
 
-/* Hero Buttons */
+
 .hero-buttons {
     display: flex;
     gap: 1rem;
@@ -287,7 +279,7 @@ footer {
     box-shadow: 0 10px 20px rgba(255, 77, 77, 0.3);
 }
 
-/* Education Timeline */
+
 .timeline {
     position: relative;
     max-width: 800px;
@@ -391,7 +383,6 @@ footer {
 }
 
 
-/* Work Experience Section */
 .experience-container {
     max-width: 800px;
     margin: 0 auto;
@@ -454,7 +445,6 @@ footer {
     color: var(--accent);
 }
 
-/* Responsive Experience Cards */
 @media (max-width: 768px) {
     .experience-header {
         flex-direction: column;
@@ -466,7 +456,6 @@ footer {
     }
 }
 
-/* Updated Timeline for additional education entry */
 .timeline-item:nth-child(odd) {
     left: 0;
     padding-right: 3rem;
@@ -479,7 +468,6 @@ footer {
     padding-right: 0;
 }
 
-/* Responsive Timeline adjustments */
 @media (max-width: 768px) {
     .timeline-item:nth-child(odd),
     .timeline-item:nth-child(even) {
